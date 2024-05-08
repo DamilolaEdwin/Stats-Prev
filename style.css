@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1{
+   color: hsl(0, 0%, 100%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.page{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 6px;
+    
+}
+
+.side{
+    flex: 1;
+    
+}
+
+.down{
+    display: flex;
+}
+
+.part{
+    flex: 1;
+    margin-block-start: 200px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+.shade{
+    position: relative; 
+}
+
+.shade::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(148, 11, 206, 0.76);
+    mix-blend-mode: multiply;
+}
