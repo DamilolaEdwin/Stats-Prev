@@ -6,13 +6,28 @@ body {
 h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 900;
-  margin-inline-start: 30px;
+  margin-inline-start: 40px;
   margin-block-start: 50px;
+
+
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 702;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
   margin-inline-start: 40px;
+  margin-block-start: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 402;
+  font-style: normal;
 }
 
 .page {
@@ -37,9 +52,20 @@ p {
 
 .part {
   flex: 1;
-  margin-block-start: 200px;
-  color: hsla(0, 0%, 100%, 0.6);
+  margin-block-start: 30px;
+  margin-inline-start: 40px;
+  color: hsla(0, 0%, 100%, 0.897);
   height: 50px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 416;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+h6{
+  margin-block-start: -15px;
 }
 
 .shade {
@@ -60,4 +86,10 @@ p {
 img {
   height: 500px;
   width: 600px;
+}
+
+@media screen and (max-width: 375px){
+
+
+
 }
